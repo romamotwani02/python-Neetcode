@@ -8,4 +8,4 @@ for i in range(1,sqrt+1):
     if n%i==0:
         l1.append(i)
         l1.append((n//i))
-print(l1)
+print(l1) 
