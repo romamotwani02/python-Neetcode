@@ -6,4 +6,4 @@ def nForest(n:int) ->None:
 
 #another way
 #for i in range(1, 4):  # Loop through 1 to 3
-#    print("* " * i)   # Print '*' i times
+##print("* " * i)   # Print '*' i times
