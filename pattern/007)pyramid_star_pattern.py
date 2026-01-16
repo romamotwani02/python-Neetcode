@@ -19,4 +19,4 @@ for i in range(1, rows + 1):
  stars = 2*1-1
  right_spaces = rows - i
 
- print(" * * left_spaces + "*" * stars + " " * right_spaces)
+ print(" " * left_spaces + "*" * stars + " " * right_spaces)
