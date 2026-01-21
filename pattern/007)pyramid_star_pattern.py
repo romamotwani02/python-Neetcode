@@ -15,8 +15,8 @@ def nStarTriangle(n: int) -> None:
 #another way
 rows = 5
 for i in range(1, rows + 1):
- left_spaces = rows i
- stars = 2*1-1
+ left_spaces = rows-i
+ stars = 2*i-1
  right_spaces = rows - i
 
  print(" " * left_spaces + "*" * stars + " " * right_spaces)
