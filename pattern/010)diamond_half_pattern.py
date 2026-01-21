@@ -32,5 +32,5 @@ def print_pattern(N):
         print('*' * i)
     
     # Print the decreasing part
-    for i in range(N - 1, 0, -1):
+    for i in range(N - 1, -1, -1):
         print('*' * i)
