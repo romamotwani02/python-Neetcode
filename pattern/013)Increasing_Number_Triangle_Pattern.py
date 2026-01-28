@@ -9,3 +9,5 @@ def nNumberTriangle(n: int) -> None:
         print()
         
     pass
+
+
