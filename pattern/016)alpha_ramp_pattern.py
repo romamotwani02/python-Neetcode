@@ -8,3 +8,4 @@ def alphaRamp(n: int) -> None:
         print()
         character=chr(ord(character)+1)
     pass
+ 
