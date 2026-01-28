@@ -6,3 +6,4 @@ def nLetterTriangle(n: int):
             print(chr(j),end=" ")
         print()
     pass
+ 
