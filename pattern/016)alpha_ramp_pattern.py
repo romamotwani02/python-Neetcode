@@ -9,3 +9,11 @@ def alphaRamp(n: int) -> None:
         character=chr(ord(character)+1)
     pass
  
+#other way
+n=5
+alpha=65
+for i in range(n):
+ for k in range(i+1):
+   print(chr(alpha), end='')
+ alpha+=1
+ print()
