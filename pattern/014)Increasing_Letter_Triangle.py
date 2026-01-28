@@ -7,4 +7,4 @@ def nLetterTriangle(n: int) -> None:
         print()
     pass
     
-    
+     
