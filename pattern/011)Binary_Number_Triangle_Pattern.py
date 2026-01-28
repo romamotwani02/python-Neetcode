@@ -1,7 +1,7 @@
 #question->https://takeuforward.org/pattern/pattern-11-binary-number-triangle-pattern/
 
 def nBinaryTriangle(n: int) -> None:
-    # Write your solution here.
+    # Write your solution here...
     for i in range(n):
         start=0
         if i%2==0:
