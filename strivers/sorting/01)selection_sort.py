@@ -1,11 +1,9 @@
 
 def selectionSort(arr1,size):
-    for i in range(size):
-        min_idx=i
+    for i in range(size-1):
         for j in range(i+1,size):
-            if arr1[j]<arr1[min_idx]:
-                min_idx=j
-        arr1[i],arr1[min_idx]=arr1[min_idx],arr1[i]
+            if arr1[j]<arr1[i]:
+              arr1[i],arr1[j]=arr1[j],arr1[i]
     return arr1
 
 
