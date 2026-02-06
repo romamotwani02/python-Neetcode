@@ -7,3 +7,5 @@ class Solution:
             ans2.insert(i+n,nums[i])
         return ans2
         
+#other easy way
+ans=nums*2
